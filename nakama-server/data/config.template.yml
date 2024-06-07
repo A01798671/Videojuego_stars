@@ -1,0 +1,21 @@
+name: nakama
+data_dir: "./data/"
+
+logger:
+    file: "/nakama/data/logfile.log"
+    level: "DEBUG"
+
+console:
+    port: 7351
+    username: "some_safe_username"
+    password: "randompassword"
+
+database:
+    address: [root@cockroachdb:26257]
+
+
+session:
+    token_expiry_sec: 7200
+
+metrics:
+    prometheus_port: 9100

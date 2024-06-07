@@ -1,0 +1,4 @@
+.vscode
+nakama-server/data/.cookie
+nakama-server/data/logfile.log
+nakama-server/data/config.yml
